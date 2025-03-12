@@ -1,0 +1,138 @@
+{
+    "version": "",
+    "Paytable":
+    {
+        "RTPvalue": "{@minRTP} %",
+        "RTPrange": "entre {@minRTP} % et {@maxRTP} %",
+        "paybackTitle": "Taux de retour théorique",
+        "paybackBody": "Pour ce jeu, le taux de retour théorique moyen à long terme est de {RTP}.",
+        "subheading": "Coût du billet : {ticketCost}",
+        "prizeLevel": "Niveau du lot",
+        "description": "Description",
+        "prizeValue": "Valeur du lot",
+        "descriptionText1": "Gain Chili",
+        "descriptionText2": "Lot boni",
+        "overallChances": "Globalement, vous avez 1 chance sur {odds} de gagner un lot à chaque partie.",
+        "prizeDivision": "Répartition des lots",
+        "prizeRemaining": "Nombre approximatif de lots restants",
+        "oddsPerPlay": "Chances par partie"
+
+    },
+    "title": "Hot Pepper Payout",
+    "MenuCommand":
+    {
+        "price": "Coût",
+        "stake": "Mise",
+        "howToPlay": "Aide",
+        "paytable": "Table de paiement",
+        "close": "Fermer",
+        "audio":
+        {
+            "sound": "Son",
+            "on": "Activé",
+            "off": "Désactivé"
+        }
+    },
+    "Error":
+    {
+        "errorCodePrefix": "Erreur : ",
+        "genericErrorText": "Une erreur interne est survenue. QUITTEZ le jeu et relancez-le."
+    },
+    "Game":
+    {
+        "footer_balance": "SOLDE",
+        "footer_ticketCost": "COÛT DU BILLET",
+        "ticketSelect_ticketCost": "COÛT DU BILLET",
+        "ticketCostPrefix":
+        {
+            "BUY": "",
+            "TRY": "ESSAYER "
+        },
+        "footer_win":
+        {
+            "BUY": "GAIN",
+            "TRY": "GAIN FICTIF"
+        },
+
+        "button_buy":
+        {
+            "BUY": "ACHETER",
+            "TRY": "ESSAYER"
+        },
+        "button_try": "ESSAYER",
+        "button_retry": "ESSAYER DE NOUVEAU",
+        "button_continue": "CONTINUER",
+        "button_moveToMoney": "MODE ARGENT RÉEL",
+        "button_autoPlay_landscape": "TOUT\nAFFICHER",
+        "button_autoPlay_portrait": "TOUT AFFICHER",
+        "button_autoPlay_bonus_portrait": "JEU AUTO",
+        "button_autoPlay_bonus_landscape": "JEU AUTO",
+        "button_stop": "ARRÊTER",
+        "button_playAgain":
+        {
+            "BUY": "JOUER DE NOUVEAU",
+            "TRY": "ESSAYER DE NOUVEAU"
+        },
+        "button_tryAgain": "ESSAYER DE NOUVEAU",
+        "button_ok": "OK",
+        "button_exit": "QUITTER",
+
+        "error_button_exit": "QUITTER",
+        "error_title": "ERREUR",
+
+        "message_nonWin": "MEILLEURE CHANCE \nLA PROCHAINE FOIS",
+        "message_win":
+        {
+            "BUY": "GAIN TOTAL",
+            "TRY": "GAIN FICTIF TOTAL"
+        },
+        "howToPlayTitle": "COMMENT JOUER",
+        "howToPlayTitleBonus": "SYMBOLE BONI",
+
+        "howToPlay":
+        {
+            "page1":
+            {
+                "landscape":
+                {
+                    "text1": "Découvrez un symbole Chili rouge et gagnez le lot correspondant.",
+                    "text2": "{redChili}",
+                    "text3": "Découvrez des symboles Chili rouge à toutes les positions d’une colonne pour gagner les lots affichés sur ces symboles multipliés par le multiplicateur de lot de la colonne.",
+                    "text4": ""
+                },
+                "portrait":
+                {
+                    "text1": "Découvrez un symbole Chili rouge\net gagnez le lot correspondant.",
+                    "text2": "{redChili}",
+                    "text3": "\nDécouvrez des symboles Chili rouge à toutes les positions d’une colonne\npour gagner les lots affichés sur ces symboles\nmultipliés par le multiplicateur de lot de la colonne.",
+                    "text4": ""
+                }
+            },
+            "page2":
+            {
+                "landscape":
+                {
+                    "text1": "Découvrez un symbole Chili doré pour déclencher le jeu boni.",
+                    "text2": "{goldChili}",
+                    "text3": "\nSélectionnez des tuiles pour dévoiler des chilis colorés ou des multiplicateurs. Vous devez obtenir quatre chilis de la même couleur pour remplir le compteur correspondant. Le curseur sur l’échelle des multiplicateurs avance chaque fois qu’un multiplicateur est dévoilé.\n\nObtenez quatre chilis de la même couleur pour multiplier le lot au compteur correspondant par le multiplicateur. Vous gagnez le lot, et le jeu boni prend fin."
+                },
+                "portrait":
+                {
+                    "text1": "Découvrez un symbole Chili doré pour déclencher le jeu boni.",
+                    "text2": "{goldChili}",
+                    "text3": "\n\nSélectionnez des tuiles pour dévoiler des chilis colorés ou des multiplicateurs. Vous devez obtenir quatre chilis de la même couleur pour remplir le compteur correspondant. Le curseur sur l’échelle des multiplicateurs avance chaque fois qu’un multiplicateur est dévoilé.\n\nObtenez quatre chilis de la même couleur pour multiplier le lot au compteur correspondant par le multiplicateur. Vous gagnez le lot, et le jeu boni prend fin."
+                }
+            }
+        },
+
+        "winUpTo": "GAGNEZ JUSQU’À",
+        "bonus": "BONI",
+        "bonusNoWin": "AUCUN GAIN BONI",
+        "bonusWin": "GAIN BONI TOTAL",
+        "totalWin": "GAIN TOTAL",
+        "infoBarText": "LES GAINS SONT MULTIPLIÉS POUR UNE COLONNE COMPLÈTE",
+        "bonusInfo": "DÉCOUVREZ LE CHILI ROUGE POUR GAGNER DES LOTS",
+        "bonusInfo2": "DÉCOUVREZ LE CHILI DORÉ POUR DÉCLENCHER LE JEU BONI",
+        "collectorMeterInfoText": "Sélectionnez des tuiles pour trouver quatre chilis de la même couleur\nafin de remplir les compteurs et gagner le lot correspondant!\nAccumulez les multiplicateurs pour obtenir des lots plus élevés!"
+    }
+}

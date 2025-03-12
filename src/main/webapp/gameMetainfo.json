@@ -1,0 +1,9 @@
+{
+  "game": {
+    "name": "HotPepperPayout",
+    "id": "300-2211-0",
+    "framework": "jet",
+    "version": "1.5",
+    "studio": "interactive"
+  }
+}
